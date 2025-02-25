@@ -3,3 +3,43 @@ body{
     color: rgb(240, 213, 231);
 
 }
+#cabeçalho{
+    text-align: center;
+    background-color: rgb(97, 14, 145);
+    font-size: 30px;
+}
+/* Imagem da mita princiapl */
+#mita{
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(253, 245, 251);
+    background-color: blueviolet;
+}
+.titulo2{
+    background-color: rgb(100, 25, 143);
+}
+.p1{
+    background-color: rgb(93, 28, 131);
+}
+/* Tabela */
+td, caption{
+    background-color: rgb(97, 14, 145);
+    
+}
+table{ 
+    
+    width: 100%;
+    text-align: center;
+    
+}
+caption{
+    font-size: 30px;
+}
+#rodape{
+    text-align: center;
+}
+
+
