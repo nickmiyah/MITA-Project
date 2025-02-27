@@ -7,17 +7,54 @@ body{
     text-align: center;
     background-color: rgb(97, 14, 145);
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
 }
-/* Imagem da mita princiapl */
-#mita{
-    margin: 0 auto;
-    display: block;
-}
+/* titulo */
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(253, 245, 251);
-    background-color: blueviolet;
+    
+    text-align: center;
 }
+h1{
+    background-color: blueviolet;
+    margin-top: auto;
+}
+/* Imagem da mita princiapl */
+#banner{
+    width: 100%;
+    display: block;
+    margin-top: -21px;
+}
+
+/* Audio em desenvolviemnto, necessario conhecimento em JAVA ainda */
+#audio{
+width: 96%;
+
+transition: transform 0.3s ease-in-out;
+
+}
+#audio{
+    background-color: rgb(76, 10, 129);
+    padding: 20px;
+    border: 6px solid #7b2d7e; /* Borda colorida */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra ao redor */
+    background: linear-gradient(to right, #5a2d6e, #8c03db);
+    margin-top: 7px;
+
+}
+#audio:active {
+    transform: scale(1.1); /* Aumenta um pouco quando pressionado */
+}
+#audio:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
 .titulo2{
     background-color: rgb(100, 25, 143);
 }
