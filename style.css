@@ -1,6 +1,9 @@
 body{
     background-color: rgb(216, 126, 216);
     color: rgb(240, 213, 231);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 #cabeçalho{
@@ -32,8 +35,9 @@ h1{
 
 /* Audio em desenvolviemnto, necessario conhecimento em JAVA ainda */
 #audio{
-width: 96%;
-
+width: 95%;
+margin: 0 auto;
+display: block;
 transition: transform 0.3s ease-in-out;
 
 }
@@ -78,5 +82,6 @@ caption{
 #rodape{
     text-align: center;
 }
+
 
 
