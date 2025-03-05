@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 
 }
-
+/* Header */
 .menu ul {
 
     color: black;
@@ -32,6 +32,7 @@ body {
     color: rgb(248, 248, 248);
 }
 
+/* Main */
 #banner img {
     width: 100%;
     display: block;
@@ -46,6 +47,10 @@ body {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     color: black;
+}
+
+p {
+  color: black;
 }
 
 p.paragrafo {
@@ -65,6 +70,59 @@ p.paragrafo {
     color: #8a10d1;
 }
 
+#bio{
+display: flex;
+margin-top: 80px;
+justify-content: space-around;
+}
+#bio img{
+    border-radius: 20px;
+}
+.biohanni, .biominji, .biohaerin, .biodanielle, .biohyein{
+    display: inline-block; 
+    /* border: 10px solid #8a10d1; */
+    border-radius: 20px;
+    background-color: #f7c9ec;
+    width: 230px;   
+    height: 320px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.biohanni:hover, .biodanielle:hover, .biominji:hover, .biohaerin:hover, .biohyein:hover{
+ background-color: #e1b6e2;
+ transform: scale(1.02);
+ transition: transform 500ms ease-in-out;
+ 
+}
+#rodape ul {
+    margin-top: 200px;
+    text-align: center;
+    gap: 20px;
+    color: black;
+    list-style-type: none;
+    justify-content: center;
+    display: flex
+    
+}
+
+#rodape a {
+    text-decoration: none;
+    color: #8a10d1;
+}
+
+#rodape a:hover {
+    color: rgb(248, 248, 248);
+}
+
+
+
+
+
+
+
+
+/* Footer */
 #rodape ul {
     text-align: center;
     gap: 20px;
