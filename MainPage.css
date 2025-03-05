@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(235, 213, 235);
+    color: rgb(240, 213, 231);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.menu ul {
+
+    color: black;
+    height: 40px;
+    background-color: #e3c2e4;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.menu a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: rgb(194, 34, 186);
+    /* Defina a cor dos links para preto (ou a cor que preferir) */
+}
+
+.menu a:hover {
+    color: rgb(248, 248, 248);
+}
+
+#banner img {
+    width: 100%;
+    display: block;
+    margin-top: -21px;
+    height: 500px;
+}
+
+.titulo2 {
+    /* background-color: rgb(100, 25, 143); */
+    text-align: center;
+    margin-top: auto;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+p.paragrafo {
+    color: black;
+    text-align: center;
+    background-color: #e1b6e2;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    padding: 50px;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.paragrafo:hover {
+    color: #8a10d1;
+}
+
+#rodape ul {
+    text-align: center;
+    gap: 20px;
+    color: black;
+    list-style-type: none;
+    justify-content: center;
+    display: flex
+}
+
+#rodape a {
+    text-decoration: none;
+    color: #8a10d1;
+}
+
+#rodape a:hover {
+    color: rgb(248, 248, 248);
+}
